@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Gotham Narrow', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+u{
+    text-decoration: underline;
+}
+.waiver{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 11px;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+.dropdown{
+    
+    width: 88vw;
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 2rem; */
+}
+
+.dropdown li{
+    font-weight: 400;
+    padding: .7rem;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    margin-top: 2rem;
+}
+.navbar label{
+    font-size: 24px;
+    z-index: 99999;
+
+}
+.navbar label:hover{
+    color: grey;
+}
+.earnings img{
+    width: 100%;
+    margin-top: 2rem;
+}
+.sect1{
+    background-color: hsl(0, 0%, 90%);
+    padding: 1rem;
+}
+.CTA h1{
+    font-size: 35px;
+    color: rgb(53, 53, 53);
+}
+.CTA h2{
+    color: grey;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+em{
+    font-weight: 400;
+}
+.check{
+    margin: 15px 1px 25px 1px;
+}
+.checkmark{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px ;
+    color: grey;
+}
+.checkmark img{
+    margin-right: 15px;
+}
+.signup{
+    display: flex;
+    justify-content: space-around;
+}
+.signup input{
+    height: 2.5rem;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid grey;
+    flex-grow: .3;
+    margin-right: 1rem;
+    margin-left: .5rem;
+}
+.signup button{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    flex-grow: .3;
+    font-weight: 100;
+    font-family: 'Gotham Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.socials{
+    margin: 1px ;
+    display: flex;
+    padding: 31px 0px;
+    justify-content: space-evenly;
+}
+.socials img{
+    width: 25%;
+}
+.escrow{
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    margin:  0px 21px;
+    padding: 1.5rem 1.5rem;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.secure{
+    font-size: 40px;
+    font-weight: 500;
+}
+.secureInfo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: rgb(63, 63, 63);
+    padding-top: 1rem;
+}
+.learnmore{
+    text-decoration: underline;
+    padding-top: 1rem;
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+    cursor: pointer;
+}
+
+.escrow img{
+    width: 100%;
+    align-self: center;
+}
+.texteditor{
+    margin: 20px;
+    margin-bottom: 0%;
+}
+
+.editorh1{
+    font-size: 28px;
+    font-weight: 500;
+}
+.editorinfo{
+    font-weight: 300;
+    margin-top: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: gray;
+}
+.editordemo{
+    cursor: pointer;
+    margin-top: 1.5rem;
+    text-decoration: underline;
+    color: rgb(48, 48, 48);
+    padding-bottom: 1rem;
+}
+.texteditor img{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    color: hsl(0, 0%, 55%);
+    font-weight: 400;
+    font-size: 17px;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+footer .logo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+a{
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ul{
+    font-weight: 300;
+    text-decoration: none;
+}
+.footlogodesc{
+    margin-top: 2rem;
+}
+footer *{
+    margin: .5rem;
+    margin-left: .3rem;
+    margin-right: .9rem;
+}
+.spenceDescription{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+ul li{
+    border-radius:7px;
+}
+ul li:hover{
+    cursor: pointer;
+    color: rgb(230, 230, 230);
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1.5px;
+}
+.dropdown ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0cm 5px 5px black;
+    transition: box-shadow .19s;
+}
+/* Dropdown hover */
+.dropdown ul li:hover{
+    background-color: white;
+}
+.dropdown ul li ul{
+    display: none;
+    position: absolute;
+    left: 299px;
+    transition: display 1s;
+}
+.dropdown button{
+    display: none;
+}
+
+@media (min-width:715px) {
+    .dropdown{
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 43px;
+        width: 88%;
+    }
+    .dropdown ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .navbar img{
+        display: none;
+    }
+    .signup{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .signup:nth-child(odd), .signup:nth-child(even){
+        flex-grow: 0;
+        width: 35%;
+        margin-right: 1rem;
+    }
+    .dropdown button{
+        display: block;
+        padding: 12px;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        flex-grow: .08;
+        font-weight: 100;
+        font-family: 'Gotham Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    footer .footlogodesc{
+        width: 51%;
+    }
+    .escrow img{
+        width: 75%;
+        overflow: hidden;
+    }
+}
+
+@media (min-width:1200px) {
+    .sect1{
+        overflow: hidden;
+    }
+    .dropdown ul{
+        display: flex;
+        justify-content: center;
+        flex-grow: .8;
+        position: relative;
+        left: 355px;
+    }
+    .dropdown ul li:nth-child(3){
+        margin-right: 50px;
+    }
+    .dropdown button{
+        display: block;
+        padding: 12px;
+        background-color: black;
+        color: white;
+        border-radius: 6px;
+        flex-grow: .08;
+        font-weight: 100;
+        font-family: 'Gotham Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .escrowContainer{
+        width: 40%;
+    }
+    .escrow img{
+        width: 40%;
+    }
+    .escrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .earningsContainer{
+        display: flex;
+    }
+    .earnings{
+        order: 2;
+        width: 50%;
+    }
+    .CTA{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: 40%;
+    }
+    footer{
+        display: flex;
+
+    }
+    footer .footlogodesc{
+        width: 41%;
+    }
+    .editorContainer{
+        width: 41%;
+        margin: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .texteditor{
+        padding: 3rem;
+        display: flex;
+    }
+    .texteditor img{
+        width: 51%;
+    }
+}
