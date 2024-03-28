@@ -90,7 +90,7 @@ em{
     flex-grow: .3;
     margin-right: 1rem;
     margin-left: .5rem;
-    min-width: 5rem;
+    min-width: 50%;
 }
 .signup button{
     padding: 12px;
@@ -100,6 +100,7 @@ em{
     flex-grow: .3;
     font-weight: 100;
     font-family: 'Gotham Narrow', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    min-width: 50%;
 }
 .socials{
     margin: 1px ;
